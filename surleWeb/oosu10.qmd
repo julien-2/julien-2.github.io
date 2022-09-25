@@ -1,0 +1,7 @@
+---
+title: "O&O ShutUp10++"
+---
+
+Petit logiciel portable pour réduire l'espionnage de Windows 10/11 et quelques autres trucs ennuyant
+
+[à télécharger ici](https://www.oo-software.com/en/shutup10)

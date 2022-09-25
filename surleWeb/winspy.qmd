@@ -1,0 +1,9 @@
+---
+title: "Win10 Spy Disabler"
+---
+
+Petit logiciel portable pour réduire l'espionnage de Windows 10/11.
+
+Attention les nouvelles versions peuvent être douteuse !
+
+[à télécharger ici](https://www.site2unblock.com/)
