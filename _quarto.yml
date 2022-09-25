@@ -18,6 +18,7 @@ website:
     - section: "sur le Web"
       contents: 
       - surleWeb/listing.qmd
+    - Coder.qmd
  
 format:
   html:

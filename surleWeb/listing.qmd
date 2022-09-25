@@ -1,4 +1,5 @@
 ---
-title: "Outils Windows ou Linux utiles"
+title: "Outils utiles pour Windows ou Linux "
 listing: default
+title-block-banner: true
 ---

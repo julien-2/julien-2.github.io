@@ -1,0 +1,30 @@
+---
+title: "Apprendre à Coder"
+# author: "Julien Delalleau" 
+title-block-banner: true
+listing:
+  template: coder_list.ejs
+  contents:
+    - name: multi-page app
+      href: https://blog.streamlit.io/introducing-multipage-apps/
+      description: >          
+          - créer une app sur plusieurs page<br>
+          - avoir plusieurs app sur une page          
+      category: streamlit  
+
+    - name: Rendre autonome une app streamlit sous windows
+      href: https://github.com/takluyver/pynsist/tree/master/examples/streamlit
+      description: >
+          Tuto pour essayer de rendre autonome une app streamlit<br>
+          Uniquement pour windows ?
+      category: streamlit
+    
+    - name: Graphique radar avec différentes échelles sur différent axes
+      href: https://stackoverflow.com/questions/24659005/radar-chart-with-multiple-scales-on-multiple-axes
+      description: >
+          Objectif, essayer de reproduire ça pour de la comparaison TCAD - composant
+      category: matplotlib
+---
+
+## Réuni différent lien avec des idées, des tutos et des raccourcis vers ressource utiles
+
