@@ -1,6 +1,7 @@
 ---
 title: "Accueil"
 author: "Julien Delalleau" 
+title-block-banner: true
 ---
 
 This is a Quarto website.
