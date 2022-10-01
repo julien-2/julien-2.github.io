@@ -1,0 +1,21 @@
+---
+title: "Outils du net"
+# author: "Julien Delalleau" 
+title-block-banner: true
+listing:
+  template: coder_list.ejs
+  contents:
+    - name: DeepL
+      href: https://www.deepl.com/translator
+      description: >          
+          Traduction de langues très efficace basé sur de l'i.a.        
+      category: webapp  
+
+    - name: Hello
+      href: https://beta.sayhello.so/
+      description: >
+          Moteur de recherche pour la programmation
+      category: webapp
+---
+
+## Réuni différent lien utiles

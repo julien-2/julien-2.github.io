@@ -19,6 +19,7 @@ website:
       contents: 
       - surleWeb/listing.qmd
     - Coder.qmd
+    - Outils.qmd
  
 format:
   html:
