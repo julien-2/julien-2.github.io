@@ -15,6 +15,10 @@ website:
     contents:
     - index.qmd
     - about.qmd
+    - section: "Projets"
+      contents:
+        - "projets/this_site.qmd"
+        - "projets/wfc.qmd"
     - section: "sur le Web"
       contents: 
       - surleWeb/listing.qmd

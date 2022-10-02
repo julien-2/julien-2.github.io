@@ -1,0 +1,20 @@
+---
+title: Utiliser l'algorithme Wave Function Collapse
+title-block-banner: true
+---
+
+## Objectif
+
+* Comprendre et apprendre l'algorithme [Wave Function Collapse](https://en.wikipedia.org/wiki/Wave_function_collapse)
+* générer avec Python notebook ou python quarto
+    * des labyrinthes pour Charline
+    * des dungeons avec des monstres et des trésors façons "Dungeon, Dice & Dangers" avec pour but d'éviter les monstres, de prendre les trésors et d'aller à la sortie
+    * Des routes dans une ville / village pour une liste de trajet à faire en fonction de la liste
+
+## Ressources
+
+* [thecodingtrain](https://thecodingtrain.com/challenges/171-wave-function-collapse)
+Exemple en vidéo et Javascript
+* [Generating Worlds With Wave Function Collapse](https://terbium.io/2018/11/wave-function-collapse/)
+Exemple en python et bonne explication
+(https://www.procjam.com/tutorials/wfc/)

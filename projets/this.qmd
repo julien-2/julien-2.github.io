@@ -1,0 +1,20 @@
+---
+title: "Ce site"
+title-block-banner: true
+---
+
+## Objectif
+
+* apprendre à ce servir de quarto
+* avoir un site utile
+
+## Avantages de Quarto
+* faire un site type blog en markdown, c'est plus facile
+* Site statique donc rapide
+* Directement sur GitHub -> versionnage et accès facile, gratui
+* Utiliser la puissance de vscode
+
+## Ressources
+
+* [Quarto - naviguation](https://quarto.org/docs/websites/website-navigation.html)
+* [Quarto - publish on git](https://quarto.org/docs/publishing/github-pages.html)

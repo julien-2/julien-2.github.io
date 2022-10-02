@@ -14,6 +14,41 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "projets/this.html",
+    "href": "projets/this.html",
+    "title": "Ce site",
+    "section": "",
+    "text": "apprendre à ce servir de quarto\navoir un site utile"
+  },
+  {
+    "objectID": "projets/this.html#avantages-de-quarto",
+    "href": "projets/this.html#avantages-de-quarto",
+    "title": "Ce site",
+    "section": "Avantages de Quarto",
+    "text": "Avantages de Quarto\n\nfaire un site type blog en markdown, c’est plus facile\nSite statique donc rapide\nDirectement sur GitHub -> versionnage et accès facile, gratui\nUtiliser la puissance de vscode"
+  },
+  {
+    "objectID": "projets/this.html#ressources",
+    "href": "projets/this.html#ressources",
+    "title": "Ce site",
+    "section": "Ressources",
+    "text": "Ressources\n\nQuarto - naviguation\nQuarto - publish on git"
+  },
+  {
+    "objectID": "projets/wfc.html",
+    "href": "projets/wfc.html",
+    "title": "Utiliser l’algorithme Wave Function Collapse",
+    "section": "",
+    "text": "Comprendre et apprendre l’algorithme Wave Function Collapse\ngénérer avec Python notebook ou python quarto\n\ndes labyrinthes pour Charline\ndes dungeons avec des monstres et des trésors façons “Dungeon, Dice & Dangers” avec pour but d’éviter les monstres, de prendre les trésors et d’aller à la sortie\nDes routes dans une ville / village pour une liste de trajet à faire en fonction de la liste"
+  },
+  {
+    "objectID": "projets/wfc.html#ressources",
+    "href": "projets/wfc.html#ressources",
+    "title": "Utiliser l’algorithme Wave Function Collapse",
+    "section": "Ressources",
+    "text": "Ressources\n\nthecodingtrain Exemple en vidéo et Javascript\nGenerating Worlds With Wave Function Collapse Exemple en python et bonne explication (https://www.procjam.com/tutorials/wfc/)"
+  },
+  {
     "objectID": "surleWeb/listing.html",
     "href": "surleWeb/listing.html",
     "title": "Outils utiles pour Windows ou Linux",
