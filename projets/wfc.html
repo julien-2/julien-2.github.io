@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Le carnet des choses diverses - Outils utiles pour Windows ou Linux</title>
+<title>Le carnet des choses diverses - Utiliser l’algorithme Wave Function Collapse</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,37 +58,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -100,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Outils utiles pour Windows ou Linux</h1>
+      <h1 class="quarto-secondary-nav-title">Utiliser l’algorithme Wave Function Collapse</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -111,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Outils utiles pour Windows ou Linux</h1>
+      <h1 class="title d-none d-lg-block">Utiliser l’algorithme Wave Function Collapse</h1>
                       </div>
   </div>
     
@@ -161,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projets/wfc.html" class="sidebar-item-text sidebar-link">Utiliser l’algorithme Wave Function Collapse</a>
+  <a href="../projets/wfc.html" class="sidebar-item-text sidebar-link active">Utiliser l’algorithme Wave Function Collapse</a>
   </div>
 </li>
       </ul>
@@ -176,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../surleWeb/listing.html" class="sidebar-item-text sidebar-link active">Outils utiles pour Windows ou Linux</a>
+  <a href="../surleWeb/listing.html" class="sidebar-item-text sidebar-link">Outils utiles pour Windows ou Linux</a>
   </div>
 </li>
       </ul>
@@ -206,7 +174,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#objectif" id="toc-objectif" class="nav-link active" data-scroll-target="#objectif">Objectif</a></li>
+  <li><a href="#ressources" id="toc-ressources" class="nav-link" data-scroll-target="#ressources">Ressources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -214,53 +189,30 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="objectif" class="level2">
+<h2 class="anchored" data-anchor-id="objectif">Objectif</h2>
+<ul>
+<li>Comprendre et apprendre l’algorithme <a href="https://en.wikipedia.org/wiki/Wave_function_collapse">Wave Function Collapse</a></li>
+<li>générer avec Python notebook ou python quarto
+<ul>
+<li>des labyrinthes pour Charline</li>
+<li>des dungeons avec des monstres et des trésors façons “Dungeon, Dice &amp; Dangers” avec pour but d’éviter les monstres, de prendre les trésors et d’aller à la sortie</li>
+<li>Des routes dans une ville / village pour une liste de trajet à faire en fonction de la liste</li>
+</ul></li>
+</ul>
+</section>
+<section id="ressources" class="level2">
+<h2 class="anchored" data-anchor-id="ressources">Ressources</h2>
+<ul>
+<li><a href="https://thecodingtrain.com/challenges/171-wave-function-collapse">thecodingtrain</a> Exemple en vidéo et Javascript</li>
+<li><a href="https://terbium.io/2018/11/wave-function-collapse/">Generating Worlds With Wave Function Collapse</a> Exemple en python et bonne explication (https://www.procjam.com/tutorials/wfc/)</li>
+<li><a href="https://medium.com/swlh/wave-function-collapse-tutorial-with-a-basic-exmaple-implementation-in-python-152d83d5cdb1#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6ImVkMzZjMjU3YzQ3ZWJhYmI0N2I0NTY4MjhhODU4YWE1ZmNkYTEyZGQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NjQ4NjQ0NzQsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwOTU4NzExNDg0MDg5NTg4MjQ5MiIsImVtYWlsIjoiamRlbGFsbGVhdTVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJKdWxpZW4gRGVsIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hLS9BQ05QRXUtRkZNVktJQzNuOWZkcjdBeFgzREI0UXZ4ZFl1bWphcUxBMUFfc0VRPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ikp1bGllbiIsImZhbWlseV9uYW1lIjoiRGVsIiwiaWF0IjoxNjY0ODY0Nzc0LCJleHAiOjE2NjQ4NjgzNzQsImp0aSI6ImQxY2EyMmNkZTJjY2JiMzE4MTJkM2Y2MDY3ZmJhYzRhMGVkNjQxMGUifQ.CnuT_gRTtWGYbDnL_zJQ6xTaIi2wdAEUKbUUpaCSvQD8yzdn6b_AU2hzAJAGNOARyZfs6vHpYtqQ3HJatOLjNSvZ4CgpWm-ERJdwjnbwM73Ot4JDFzVolx6BIs9agnZzy2UzLzMxthUqzcIIfGd8baakcmJ1Nec2xtCPcddRwaG7-OZfgALg7cFGUkOLQkkbcYAB_e3Ud9EwAj3FGjyEbNsxLMo0_D_YBnyP_PTcJqFCvIChrKuVcbwiVA3WRtThxrb_f8RtBTzNp8W-nV2dSiBMi7IJGIdsoB3on7ztJ6_RAGVoQTdlFCeGDydkOZ7aA6OUZU6E-CKentJz9i5NYQ">Python implementation example</a> Un peu plus détaillé que Terbium</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1664637346918" data-listing-reading-time-sort="0.08">
-<div class="body">
-<a href="../surleWeb/oosu10.html">
-<h3 class="no-anchor listing-title">
-O&amp;O ShutUp10++
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Petit logiciel portable pour réduire l’espionnage de Windows 10/11 et quelques autres trucs ennuyant
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../surleWeb/oosu10.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1664637346919" data-listing-reading-time-sort="0.09">
-<div class="body">
-<a href="../surleWeb/winspy.html">
-<h3 class="no-anchor listing-title">
-Win10 Spy Disabler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Petit logiciel portable pour réduire l’espionnage de Windows 10/11.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../surleWeb/winspy.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

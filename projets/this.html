@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Le carnet des choses diverses - Outils utiles pour Windows ou Linux</title>
+<title>Le carnet des choses diverses - Ce site</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -60,37 +58,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -100,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Outils utiles pour Windows ou Linux</h1>
+      <h1 class="quarto-secondary-nav-title">Ce site</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -111,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Outils utiles pour Windows ou Linux</h1>
+      <h1 class="title d-none d-lg-block">Ce site</h1>
                       </div>
   </div>
     
@@ -176,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../surleWeb/listing.html" class="sidebar-item-text sidebar-link active">Outils utiles pour Windows ou Linux</a>
+  <a href="../surleWeb/listing.html" class="sidebar-item-text sidebar-link">Outils utiles pour Windows ou Linux</a>
   </div>
 </li>
       </ul>
@@ -206,7 +174,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#objectif" id="toc-objectif" class="nav-link active" data-scroll-target="#objectif">Objectif</a></li>
+  <li><a href="#avantages-de-quarto" id="toc-avantages-de-quarto" class="nav-link" data-scroll-target="#avantages-de-quarto">Avantages de Quarto</a></li>
+  <li><a href="#ressources" id="toc-ressources" class="nav-link" data-scroll-target="#ressources">Ressources</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -214,53 +190,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="objectif" class="level2">
+<h2 class="anchored" data-anchor-id="objectif">Objectif</h2>
+<ul>
+<li>apprendre à ce servir de quarto</li>
+<li>avoir un site utile</li>
+</ul>
+</section>
+<section id="avantages-de-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="avantages-de-quarto">Avantages de Quarto</h2>
+<ul>
+<li>faire un site type blog en markdown, c’est plus facile</li>
+<li>Site statique donc rapide</li>
+<li>Directement sur GitHub -&gt; versionnage et accès facile, gratui</li>
+<li>Utiliser la puissance de vscode</li>
+</ul>
+</section>
+<section id="ressources" class="level2">
+<h2 class="anchored" data-anchor-id="ressources">Ressources</h2>
+<ul>
+<li><a href="https://quarto.org/docs/websites/website-navigation.html">Quarto - naviguation</a></li>
+<li><a href="https://quarto.org/docs/publishing/github-pages.html">Quarto - publish on git</a></li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1664637346918" data-listing-reading-time-sort="0.08">
-<div class="body">
-<a href="../surleWeb/oosu10.html">
-<h3 class="no-anchor listing-title">
-O&amp;O ShutUp10++
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Petit logiciel portable pour réduire l’espionnage de Windows 10/11 et quelques autres trucs ennuyant
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../surleWeb/oosu10.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1664637346919" data-listing-reading-time-sort="0.09">
-<div class="body">
-<a href="../surleWeb/winspy.html">
-<h3 class="no-anchor listing-title">
-Win10 Spy Disabler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Petit logiciel portable pour réduire l’espionnage de Windows 10/11.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../surleWeb/winspy.html"> </a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

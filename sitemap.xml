@@ -2,30 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/about.html</loc>
-    <lastmod>2022-10-01T15:19:45.547Z</lastmod>
+    <lastmod>2022-10-08T09:00:22.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/julien-2/julien-2.github.io/BlogsActu.html</loc>
+    <lastmod>2022-10-08T09:00:22.848Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/Coder.html</loc>
-    <lastmod>2022-10-01T15:19:46.501Z</lastmod>
+    <lastmod>2022-10-08T09:00:23.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/julien-2/julien-2.github.io/DataViz.html</loc>
+    <lastmod>2022-10-08T09:00:24.148Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/index.html</loc>
-    <lastmod>2022-10-01T15:19:47.224Z</lastmod>
+    <lastmod>2022-10-08T09:00:24.721Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/Outils.html</loc>
-    <lastmod>2022-10-01T15:19:47.889Z</lastmod>
+    <lastmod>2022-10-08T09:00:25.298Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/julien-2/julien-2.github.io/projets/this.html</loc>
+    <lastmod>2022-10-08T09:00:25.875Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/julien-2/julien-2.github.io/projets/wfc.html</loc>
+    <lastmod>2022-10-08T09:00:26.424Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/surleWeb/listing.html</loc>
-    <lastmod>2022-10-01T15:19:48.540Z</lastmod>
+    <lastmod>2022-10-08T09:00:27.138Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/surleWeb/oosu10.html</loc>
-    <lastmod>2022-10-01T15:19:49.061Z</lastmod>
+    <lastmod>2022-10-08T09:00:27.678Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/julien-2/julien-2.github.io/surleWeb/winspy.html</loc>
-    <lastmod>2022-10-01T15:19:49.577Z</lastmod>
+    <lastmod>2022-10-08T09:00:28.208Z</lastmod>
   </url>
 </urlset>

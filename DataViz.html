@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Le carnet des choses diverses - Outils utiles pour Windows ou Linux</title>
+<title>Le carnet des choses diverses - Data Visualisation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-name','listing-href','listing-description','listing-category',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-description"],
+      searchColumns: ["listing-name","listing-href","listing-description","listing-category"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -100,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Outils utiles pour Windows ou Linux</h1>
+      <h1 class="quarto-secondary-nav-title">Data Visualisation</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Outils utiles pour Windows ou Linux</h1>
+      <h1 class="title d-none d-lg-block">Data Visualisation</h1>
                       </div>
   </div>
     
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">Le carnet des choses diverses</a> 
+      <a href="./">Le carnet des choses diverses</a> 
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -140,12 +140,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">Accueil</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Accueil</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">A propos</a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">A propos</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projets/wfc.html" class="sidebar-item-text sidebar-link">Utiliser l’algorithme Wave Function Collapse</a>
+  <a href="./projets/wfc.html" class="sidebar-item-text sidebar-link">Utiliser l’algorithme Wave Function Collapse</a>
   </div>
 </li>
       </ul>
@@ -176,29 +176,29 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../surleWeb/listing.html" class="sidebar-item-text sidebar-link active">Outils utiles pour Windows ou Linux</a>
+  <a href="./surleWeb/listing.html" class="sidebar-item-text sidebar-link">Outils utiles pour Windows ou Linux</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Coder.html" class="sidebar-item-text sidebar-link">Apprendre à Coder</a>
+  <a href="./Coder.html" class="sidebar-item-text sidebar-link">Apprendre à Coder</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../DataViz.html" class="sidebar-item-text sidebar-link">Data Visualisation</a>
+  <a href="./DataViz.html" class="sidebar-item-text sidebar-link active">Data Visualisation</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Outils.html" class="sidebar-item-text sidebar-link">Outils du net</a>
+  <a href="./Outils.html" class="sidebar-item-text sidebar-link">Outils du net</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../BlogsActu.html" class="sidebar-item-text sidebar-link">Blogs et Actus</a>
+  <a href="./BlogsActu.html" class="sidebar-item-text sidebar-link">Blogs et Actus</a>
   </div>
 </li>
     </ul>
@@ -206,7 +206,13 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#réuni-différent-lien-avec-des-idées-des-tutos-et-des-raccourcis-vers-ressource-utiles" id="toc-réuni-différent-lien-avec-des-idées-des-tutos-et-des-raccourcis-vers-ressource-utiles" class="nav-link active" data-scroll-target="#réuni-différent-lien-avec-des-idées-des-tutos-et-des-raccourcis-vers-ressource-utiles">Réuni différent lien avec des idées, des tutos et des raccourcis vers ressource utiles</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -214,49 +220,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="réuni-différent-lien-avec-des-idées-des-tutos-et-des-raccourcis-vers-ressource-utiles" class="level2">
+<h2 class="anchored" data-anchor-id="réuni-différent-lien-avec-des-idées-des-tutos-et-des-raccourcis-vers-ressource-utiles">Réuni différent lien avec des idées, des tutos et des raccourcis vers ressource utiles</h2>
 
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1664637346918" data-listing-reading-time-sort="0.08">
-<div class="body">
-<a href="../surleWeb/oosu10.html">
-<h3 class="no-anchor listing-title">
-O&amp;O ShutUp10++
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Petit logiciel portable pour réduire l’espionnage de Windows 10/11 et quelques autres trucs ennuyant
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../surleWeb/oosu10.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1664637346919" data-listing-reading-time-sort="0.09">
-<div class="body">
-<a href="../surleWeb/winspy.html">
-<h3 class="no-anchor listing-title">
-Win10 Spy Disabler
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-Petit logiciel portable pour réduire l’espionnage de Windows 10/11.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="../surleWeb/winspy.html"> </a>
-</div>
-</div>
-</div>
+<div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
+<ul>
+  <li>
+    <h4 class="anchored"><a href="https://lumen.holoviz.org/index.html">Lumen</a></h4><br>    
+    - Créer un dashboard interractif pour visualiser les data - sous forme de WebApp - S'intalle dans python - se configure en Yaml !
+    <br>
+    catégorie: WebApp
+  </li>
+  <hr>
+</ul>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
