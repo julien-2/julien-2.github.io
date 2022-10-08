@@ -1,0 +1,16 @@
+---
+title: "Blogs et Actus"
+# author: "Julien Delalleau" 
+title-block-banner: true
+listing:
+  template: coder_list.ejs
+  contents:
+    - name: Journal du Lapin
+      href: https://www.journaldulapin.com/
+      description: >          
+          Blog d'un ancien de canard CP Hardware     
+      category: Blog  
+
+---
+
+

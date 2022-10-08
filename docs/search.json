@@ -7,6 +7,13 @@
     "text": "page en construction"
   },
   {
+    "objectID": "BlogsActu.html",
+    "href": "BlogsActu.html",
+    "title": "Blogs et Actus",
+    "section": "",
+    "text": "Journal du Lapin    \n    Blog d'un ancien de canard CP Hardware\n    \n    catégorie: Blog\n  \n  \n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Accueil",
@@ -46,7 +53,7 @@
     "href": "projets/wfc.html#ressources",
     "title": "Utiliser l’algorithme Wave Function Collapse",
     "section": "Ressources",
-    "text": "Ressources\n\nthecodingtrain Exemple en vidéo et Javascript\nGenerating Worlds With Wave Function Collapse Exemple en python et bonne explication (https://www.procjam.com/tutorials/wfc/)"
+    "text": "Ressources\n\nthecodingtrain Exemple en vidéo et Javascript\nGenerating Worlds With Wave Function Collapse Exemple en python et bonne explication (https://www.procjam.com/tutorials/wfc/)\nPython implementation example Un peu plus détaillé que Terbium"
   },
   {
     "objectID": "surleWeb/listing.html",

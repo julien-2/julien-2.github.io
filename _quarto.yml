@@ -23,7 +23,9 @@ website:
       contents: 
       - surleWeb/listing.qmd
     - Coder.qmd
+    - DataViz.qmd
     - Outils.qmd
+    - BlogsActu.qmd
  
 format:
   html:

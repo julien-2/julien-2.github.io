@@ -1,0 +1,20 @@
+---
+title: "Data Visualisation"
+# author: "Julien Delalleau" 
+title-block-banner: true
+listing:
+  template: coder_list.ejs
+  contents:
+    - name: Lumen
+      href: https://lumen.holoviz.org/index.html
+      description: >          
+          - Créer un dashboard interractif pour visualiser les data
+          - sous forme de WebApp 
+          - S'intalle dans python
+          - se configure en Yaml !        
+      category: WebApp  
+
+---
+
+## Réuni différent lien avec des idées, des tutos et des raccourcis vers ressource utiles
+
