@@ -17,7 +17,7 @@ website:
     - about.qmd
     - section: "Projets"
       contents:
-        - "projets/this_site.qmd"
+        - "projets/this.qmd"
         - "projets/wfc.qmd"
     - section: "sur le Web"
       contents: 
