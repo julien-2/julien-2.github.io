@@ -19,12 +19,14 @@ listing:
           Uniquement pour windows ?
       category: streamlit
     
-    - name: Graphique radar avec différentes échelles sur différent axes
-      href: https://stackoverflow.com/questions/24659005/radar-chart-with-multiple-scales-on-multiple-axes
-      description: >
-          Objectif, essayer de reproduire ça pour de la comparaison TCAD - composant
-      category: matplotlib
----
 
-## Réuni différent lien avec des idées, des tutos et des raccourcis vers ressource utiles
+
+    - name: Un document pour apprendre le numérique, la science, et les données avec Python
+      href: https://scipy-lectures.org/index.html
+      description: >
+          Oregroupe plein de tutoriaux pour progresser en science pratique avec Python
+      category: matplotlib
+      
+
+
 
