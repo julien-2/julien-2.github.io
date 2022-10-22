@@ -1,0 +1,13 @@
+---
+title: "Web applicaltions"
+# author: "Julien Delalleau" 
+title-block-banner: true
+listing:
+  template: coder_list.ejs
+  contents:
+    - name: Web Plot Digitizer
+      href: https://apps.automeris.io/wpd/
+      description: >          
+        permet d'extraire les point d'un graph numérique ou même de faire des mesures sur des images         
+      category: work  
+---

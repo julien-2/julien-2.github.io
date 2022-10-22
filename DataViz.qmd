@@ -14,6 +14,12 @@ listing:
           - se configure en Yaml !        
       category: WebApp  
 
+    - name: Graphique radar avec différentes échelles sur différent axes
+      href: https://stackoverflow.com/questions/24659005/radar-chart-with-multiple-scales-on-multiple-axes
+      description: >
+          Objectif, essayer de reproduire ça pour de la comparaison TCAD - composant
+      category: matplotlib
+
 ---
 
 ## Réuni différent lien avec des idées, des tutos et des raccourcis vers ressource utiles

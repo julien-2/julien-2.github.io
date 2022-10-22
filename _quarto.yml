@@ -26,6 +26,7 @@ website:
     - DataViz.qmd
     - Outils.qmd
     - BlogsActu.qmd
+    - webapps.qmd
  
 format:
   html:
