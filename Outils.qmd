@@ -16,6 +16,17 @@ listing:
       description: >
           Moteur de recherche pour la programmation
       category: webapp
+    - name: CheqMark
+      href: https://cheqmark.io/
+      description: >
+          Créer rapidement une feuille de case à coche remplir
+          Calendrier / todo liste / Compteur de jours, etc ...
+      category: webapp
+    - name: Plot Digitizer
+      href: https://apps.automeris.io/wpd/
+      description: >
+          Ctrès utilise pour numériser des graphiques à partir d'images
+      category: webapp
 ---
 
 ## Réuni différent lien utiles

@@ -17,16 +17,20 @@ listing:
       description: >
           Tuto pour essayer de rendre autonome une app streamlit<br>
           Uniquement pour windows ?
-      category: streamlit
-    
-
+      category: streamlit    
 
     - name: Un document pour apprendre le numérique, la science, et les données avec Python
       href: https://scipy-lectures.org/index.html
       description: >
-          Oregroupe plein de tutoriaux pour progresser en science pratique avec Python
+          regroupe plein de tutoriaux pour progresser en science pratique avec Python
       category: matplotlib
-      
 
+    - name: Un tuto pour faire de la super-resolution avec tensorflow
+      href: https://medium.com/gdplabs/image-super-resolution-in-python-cae6050b13d8
+      description: >
+          Faire son propre agrandisseur d'iamge avec streamlit
+      category: IA, super-resolution
+      
+https://medium.com/gdplabs/image-super-resolution-in-python-cae6050b13d8
 
 
