@@ -25,7 +25,7 @@ listing:
     - name: Plot Digitizer
       href: https://apps.automeris.io/wpd/
       description: >
-          Ctrès utilise pour numériser des graphiques à partir d'images
+          très utile pour numériser des graphiques à partir d'images
       category: webapp
 ---
 

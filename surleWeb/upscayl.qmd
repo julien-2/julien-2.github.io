@@ -1,0 +1,9 @@
+---
+title: "UpScayl"
+---
+
+super resolution open source desktop app
+Agrandir ses images sans passer par un site web !
+Attention, il faut une carte Vulkan
+
+[à télécharger ici](https://github.com/upscayl/upscayl)

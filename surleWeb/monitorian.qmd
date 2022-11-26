@@ -1,0 +1,8 @@
+---
+title: "Monitorian"
+---
+
+Permet de régler la luminoisté des écrans directement sous windows.
+Fonctionne avec le multi-écran.
+
+[à télécharger ici](https://github.com/emoacht/Monitorian)
