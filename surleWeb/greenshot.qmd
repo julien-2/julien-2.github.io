@@ -1,0 +1,17 @@
+---
+title: "Greenshot"
+---
+
+Greenshot est un outil logiciel léger de capture d'écran pour Windows avec les caractéristiques clés suivantes :
+
+    Créez rapidement des captures d'écran d'une région, d'une fenêtre ou d'un plein écran sélectionnés ; vous pouvez même capturer des pages Web complètes (défilant) à partir d'Internet Explorer.
+    Annotez, mettez en évidence ou masquez facilement des parties de la capture d'écran.
+    Exportez la capture d'écran de différentes manières : enregistrer dans un fichier, envoyer à l'imprimante, copier dans le presse-papiers, joindre à un e-mail, envoyer à des programmes Office ou télécharger sur des sites de photos comme Flickr ou Picasa, et autres.
+
+...et bien d'autres options qui facilitent la création et le travail quotidien avec les captures d'écran.
+
+Facile à comprendre et configurable, Greenshot est un outil efficace pour les chefs de projet, les développeurs de logiciels, les rédacteurs techniques, les testeurs et toute autre personne créant des captures d'écran.
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
+
+[à télécharger ici](https://getgreenshot.org/)

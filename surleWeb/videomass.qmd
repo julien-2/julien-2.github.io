@@ -1,0 +1,9 @@
+---
+title: "Videomass"
+---
+
+Videomass est une interface graphique gratuite, open source et multiplateforme pour FFmpeg et youtube-dl, concaténation (mux ou encodage de vidéos), gestionnaire de presets, conversions. Ce convertisseur audio/vidéo est convivial pour les débutants et les utilisateurs plus avancés. Grâce à l'interface pas à pas (GUI), vous pouvez simplement choisir un préréglage ou créer le vôtre. Pour les personnes qui connaissent FFmpeg, il est possible de créer facilement vos propres préréglages en utilisant la ligne de commande FFmpeg ou de créer un préréglage via l'interface graphique et de l'adapter à vos besoins spécifiques. Il offre une sortie prête à l'emploi vers tous les formats de fichiers possibles comme MP4, MKV, MOV, etc. Vidéo : MPEG-4, H.264/AVC, H.265/HEVC, VP9 et audio : AAC, MP3, OPUS, WAV, FLAC ou AC-3 et sous-titres et bien plus encore ! Vous pouvez également copier des flux (vidéo et/ou audio sans perte) et extraire de l'audio. Enfin, il dispose d'un éditeur de timeline simple, d'informations multimédia étendues et d'un téléchargeur YouTube optionnel.
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
+
+[à télécharger ici](https://jeanslack.github.io/Videomass/download_installation.html)
