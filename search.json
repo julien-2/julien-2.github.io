@@ -11,7 +11,14 @@
     "href": "BlogsActu.html",
     "title": "Blogs et Actus",
     "section": "",
-    "text": "Journal du Lapin    \n    Blog d'un ancien de canard CP Hardware\n    \n    catégorie: Blog\n  \n  \n\n\nNo matching items"
+    "text": "blog du moderateur    \n    Référence plein d'outils disponible sur le net ou à télécharger. A regarder de temps en temps pour trouver des perles à référencer ici.\n    \n    catégorie: Blog\n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "Coder.html",
+    "href": "Coder.html",
+    "title": "Apprendre à Coder",
+    "section": "",
+    "text": "multi-page app    \n    - créer une app sur plusieurs page - avoir plusieurs app sur une page\n    \n    catégorie: streamlit\n  \n  \n  \n    Rendre autonome une app streamlit sous windows    \n    Tuto pour essayer de rendre autonome une app streamlit Uniquement pour windows ?\n    \n    catégorie: streamlit\n  \n  \n  \n    Un document pour apprendre le numérique, la science, et les données avec Python    \n    regroupe plein de tutoriaux pour progresser en science pratique avec Python\n    \n    catégorie: matplotlib\n  \n  \n  \n    Un tuto pour faire de la super-resolution avec tensorflow    \n    Faire son propre agrandisseur d'iamge avec streamlit\n    \n    catégorie: IA, super-resolution\n  \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -56,11 +63,25 @@
     "text": "Ressources\n\nthecodingtrain Exemple en vidéo et Javascript\nGenerating Worlds With Wave Function Collapse Exemple en python et bonne explication (https://www.procjam.com/tutorials/wfc/)\nPython implementation example Un peu plus détaillé que Terbium"
   },
   {
+    "objectID": "surleWeb/greenshot.html",
+    "href": "surleWeb/greenshot.html",
+    "title": "Greenshot",
+    "section": "",
+    "text": "Greenshot est un outil logiciel léger de capture d’écran pour Windows avec les caractéristiques clés suivantes :\nCréez rapidement des captures d'écran d'une région, d'une fenêtre ou d'un plein écran sélectionnés ; vous pouvez même capturer des pages Web complètes (défilant) à partir d'Internet Explorer.\nAnnotez, mettez en évidence ou masquez facilement des parties de la capture d'écran.\nExportez la capture d'écran de différentes manières : enregistrer dans un fichier, envoyer à l'imprimante, copier dans le presse-papiers, joindre à un e-mail, envoyer à des programmes Office ou télécharger sur des sites de photos comme Flickr ou Picasa, et autres.\n…et bien d’autres options qui facilitent la création et le travail quotidien avec les captures d’écran.\nFacile à comprendre et configurable, Greenshot est un outil efficace pour les chefs de projet, les développeurs de logiciels, les rédacteurs techniques, les testeurs et toute autre personne créant des captures d’écran.\nTraduit avec www.DeepL.com/Translator (version gratuite)\nà télécharger ici"
+  },
+  {
     "objectID": "surleWeb/listing.html",
     "href": "surleWeb/listing.html",
     "title": "Outils utiles pour Windows ou Linux",
     "section": "",
-    "text": "O&O ShutUp10++\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nWin10 Spy Disabler\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Greenshot\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nMonitorian\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nO&O ShutUp10++\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nUpScayl\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nVideomass\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nWin10 Spy Disabler\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "surleWeb/monitorian.html",
+    "href": "surleWeb/monitorian.html",
+    "title": "Monitorian",
+    "section": "",
+    "text": "Permet de régler la luminoisté des écrans directement sous windows. Fonctionne avec le multi-écran.\nà télécharger ici"
   },
   {
     "objectID": "surleWeb/oosu10.html",
@@ -70,10 +91,38 @@
     "text": "Petit logiciel portable pour réduire l’espionnage de Windows 10/11 et quelques autres trucs ennuyant\nà télécharger ici"
   },
   {
+    "objectID": "surleWeb/upscayl.html",
+    "href": "surleWeb/upscayl.html",
+    "title": "UpScayl",
+    "section": "",
+    "text": "super resolution open source desktop app Agrandir ses images sans passer par un site web ! Attention, il faut une carte Vulkan\nà télécharger ici"
+  },
+  {
+    "objectID": "surleWeb/videomass.html",
+    "href": "surleWeb/videomass.html",
+    "title": "Videomass",
+    "section": "",
+    "text": "Videomass est une interface graphique gratuite, open source et multiplateforme pour FFmpeg et youtube-dl, concaténation (mux ou encodage de vidéos), gestionnaire de presets, conversions. Ce convertisseur audio/vidéo est convivial pour les débutants et les utilisateurs plus avancés. Grâce à l’interface pas à pas (GUI), vous pouvez simplement choisir un préréglage ou créer le vôtre. Pour les personnes qui connaissent FFmpeg, il est possible de créer facilement vos propres préréglages en utilisant la ligne de commande FFmpeg ou de créer un préréglage via l’interface graphique et de l’adapter à vos besoins spécifiques. Il offre une sortie prête à l’emploi vers tous les formats de fichiers possibles comme MP4, MKV, MOV, etc. Vidéo : MPEG-4, H.264/AVC, H.265/HEVC, VP9 et audio : AAC, MP3, OPUS, WAV, FLAC ou AC-3 et sous-titres et bien plus encore ! Vous pouvez également copier des flux (vidéo et/ou audio sans perte) et extraire de l’audio. Enfin, il dispose d’un éditeur de timeline simple, d’informations multimédia étendues et d’un téléchargeur YouTube optionnel.\nTraduit avec www.DeepL.com/Translator (version gratuite)\nà télécharger ici"
+  },
+  {
     "objectID": "surleWeb/winspy.html",
     "href": "surleWeb/winspy.html",
     "title": "Win10 Spy Disabler",
     "section": "",
     "text": "Petit logiciel portable pour réduire l’espionnage de Windows 10/11.\nAttention les nouvelles versions peuvent être douteuse !\nà télécharger ici"
+  },
+  {
+    "objectID": "webapps.html",
+    "href": "webapps.html",
+    "title": "Web applicaltions",
+    "section": "",
+    "text": "Web Plot Digitizer    \n    permet d'extraire les point d'un graph numérique ou même de faire des mesures sur des images\n    \n    catégorie: science\n  \n  \n  \n    templatemaker.nl    \n    permet de créer des patrons pour faire des boites en papier, carton et autres. Il y a aussi d'autres formes que les boites\n    \n    catégorie: diy\n  \n  \n  \n    transform (code)    \n    permet de convertir du code d'un language vers un autre\n    \n    catégorie: code\n  \n  \n  \n    magic eraser    \n    permet d'effacer des éléments d'une image grâce à l'IA\n    \n    catégorie: graphisme\n  \n  \n  \n    draw.io    \n    permet de créer des mindmap et des charts facilement\n    \n    catégorie: graphisme\n  \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "z_dump.html",
+    "href": "z_dump.html",
+    "title": "Le carnet des choses diverses",
+    "section": "",
+    "text": "HTTPS://WWW.SYNTHESIA.IO HTTPS://WWW.UNSCREEN.COM HTTPS://VOCALREMOVER.ORG HTTPS://MYEMULATOR.ONLINE HTTPS://WWW.VENTUSKY.COM/ HTTPS://WWW.MUSIC-MAP.COM/ HTTP://WWW.PIXELTHOUGHTS.CO/ HTTPS://WWW.NETFLIX-CODES.COM HTTPS://WWW.HOWSTUFFWORKS.COM/ HTTPS://CGTRICKS.COM/NVIDIA-AI-PLAYGROUND-GAUGAN-BETA/"
   }
 ]
