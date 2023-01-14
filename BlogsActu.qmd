@@ -10,7 +10,12 @@ listing:
       description: >          
           Blog d'un ancien de canard CP Hardware     
       category: Blog  
-
+  contents:
+    - name: blog du moderateur
+      href: https://www.blogdumoderateur.com/tools/
+      description: >          
+          Référence plein d'outils disponible sur le net ou à télécharger. A regarder de temps en temps pour trouver des perles à référencer ici.   
+      category: Blog  
 ---
 
 

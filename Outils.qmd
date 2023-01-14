@@ -27,6 +27,11 @@ listing:
       description: >
           très utile pour numériser des graphiques à partir d'images
       category: webapp
+    - name: pdf24
+      href: hhttps://tools.pdf24.org/fr/
+      description: >
+          boite à outils pour les pdfs
+      category: webapp
 ---
 
 ## Réuni différent lien utiles
