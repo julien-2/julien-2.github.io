@@ -1,5 +1,5 @@
 ---
-title: "Web applicaltions"
+title: "Web applications"
 # author: "Julien Delalleau" 
 title-block-banner: true
 listing:
