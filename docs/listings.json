@@ -18,7 +18,11 @@
   {
     "listing": "/surleWeb/listing.html",
     "items": [
+      "/surleWeb/greenshot.html",
+      "/surleWeb/monitorian.html",
       "/surleWeb/oosu10.html",
+      "/surleWeb/upscayl.html",
+      "/surleWeb/videomass.html",
       "/surleWeb/winspy.html"
     ]
   },

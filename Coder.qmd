@@ -30,7 +30,7 @@ listing:
       description: >
           Faire son propre agrandisseur d'iamge avec streamlit
       category: IA, super-resolution
-      
-https://medium.com/gdplabs/image-super-resolution-in-python-cae6050b13d8
+---      
+
 
 
