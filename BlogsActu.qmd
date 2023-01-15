@@ -9,8 +9,8 @@ listing:
       href: https://www.journaldulapin.com/
       description: >          
           Blog d'un ancien de canard CP Hardware     
-      category: Blog  
-  contents:
+      category: Blog 
+       
     - name: blog du moderateur
       href: https://www.blogdumoderateur.com/tools/
       description: >          

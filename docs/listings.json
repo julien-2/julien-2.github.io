@@ -1,0 +1,33 @@
+[
+  {
+    "listing": "/BlogsActu.html",
+    "items": []
+  },
+  {
+    "listing": "/Coder.html",
+    "items": []
+  },
+  {
+    "listing": "/DataViz.html",
+    "items": []
+  },
+  {
+    "listing": "/Outils.html",
+    "items": []
+  },
+  {
+    "listing": "/surleWeb/listing.html",
+    "items": [
+      "/surleWeb/greenshot.html",
+      "/surleWeb/monitorian.html",
+      "/surleWeb/oosu10.html",
+      "/surleWeb/upscayl.html",
+      "/surleWeb/videomass.html",
+      "/surleWeb/winspy.html"
+    ]
+  },
+  {
+    "listing": "/webapps.html",
+    "items": []
+  }
+]
