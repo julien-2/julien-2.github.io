@@ -31,4 +31,9 @@ listing:
       description: >          
         permet de créer des mindmap et des charts facilement   
       category: graphisme  
+    - name: calligrapher
+      href: https://www.calligrapher.ai/
+      description: >          
+        permet de générer des SVG de textes "façon écrit à la main" par IA
+      category: graphisme  
 ---
