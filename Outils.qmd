@@ -28,10 +28,14 @@ listing:
           très utile pour numériser des graphiques à partir d'images
       category: webapp
     - name: pdf24
-      href: hhttps://tools.pdf24.org/fr/
+      href: https://tools.pdf24.org/fr/
       description: >
           boite à outils pour les pdfs
       category: webapp
+    - name: remove background
+      href: https://www.remove.bg/fr
+      description: >
+          Supprimer l'arrière plan d'une photo grâce à l'IA
+      category: [webapp , photo]
 ---
-
 ## Réuni différent lien utiles
