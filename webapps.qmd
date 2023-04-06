@@ -36,4 +36,9 @@ listing:
       description: >          
         permet de générer des SVG de textes "façon écrit à la main" par IA
       category: graphisme  
+    - name: segment anything
+      href: https://segment-anything.com/demo
+      description: >          
+        permet de générer de détourer très facilment des objets et des personnes dans une photo / dessin
+      category: graphisme  
 ---
